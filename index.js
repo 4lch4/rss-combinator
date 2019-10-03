@@ -1,8 +1,8 @@
 const { FEED_URL } = require('./config')
 const RParser = require('rss-parser')
-const parser = new RParser()
+const rParser = new RParser()
 
-parser.parseURL(FEED_URL).then(feed => {
+rParser.parseURL(FEED_URL).then(feed => {
   console.log(`feed.title = ${feed.title}`)
   console.log(`feed.description = ${feed.description}`)
   console.log(`feed.feedUrl = ${feed.feedUrl}`)
