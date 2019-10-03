@@ -1,0 +1,29 @@
+{
+  "name": "@4lch4/rss-combinator",
+  "version": "0.0.1",
+  "description": "A utility for retrieving the latest entries from RSS feeds of interest.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "jest --passWithNoTests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4lch4/rss-combinator.git"
+  },
+  "keywords": [
+    "rss"
+  ],
+  "author": "4lch4",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/4lch4/rss-combinator/issues"
+  },
+  "homepage": "https://github.com/4lch4/rss-combinator#readme",
+  "dependencies": {
+    "rss-parser": "^3.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
